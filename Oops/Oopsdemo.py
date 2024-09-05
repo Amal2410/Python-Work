@@ -18,7 +18,14 @@ class Employee:
 
     department:str
 
-    def set_employee(self,id,name,age,gender,dept):
+# initializing instance variables=>constructor
+# constructor unique name
+# java=>classname()
+# javascript=>costructor()
+# python=>__init__()
+# 
+
+    def __init__(self,id,name,age,gender,dept):
         
         self.id=id
 
